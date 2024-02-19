@@ -1,0 +1,17 @@
+{
+  "name": "shopify-webhooks-to-salesforce",
+  "version": "1.0.0",
+  "description": "Use AWS Lambdas to send Shopify webhooks to Salesforce",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "aws",
+    "lambdas",
+    "shopify",
+    "salesforce"
+  ],
+  "author": "Josh W <josher19@users.sf.net>",
+  "license": "ISC"
+}
