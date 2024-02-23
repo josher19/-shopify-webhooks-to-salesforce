@@ -10,14 +10,14 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
  *
  */
 
+/** TODO: Update event and send to Salesforce Endpoint */
 function getSalesforceData(event: APIGatewayProxyEvent) {
     // const salesforce = require('node-salesforce');
-    // TODO: Do something with the event
     const salesforceData = Object.assign({
         "email": "jon.sample@example.com",
         "firstName": "Jon",
         "lastName": "Sample",
-        "publicId": "e7ng48d",
+        "publicId": "77ng477",
         "guid": "e0a0d70d-1234-8888-bb7b-db925e7da417",
         "stripe_customerId": "cus_XXXXXXXXXXXXXX",
         "shippingStreet": "123 Main St",
