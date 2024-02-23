@@ -38,7 +38,7 @@ To keep the endpoint running (default: port 3000), you can execute:
 
 ## Testing
 
-After serving functions:
+After serving functions using Powershell on Windows:
 
 ```powershell
 cd order-creation
@@ -46,14 +46,10 @@ cd order-creation
 .\test\test-order.ps1
 ```
 
-on in MacOS or Linux using bash:
+or on in MacOS or Linux using bash:
 
 ```bash
 cd order-creation
 
 ./test/test-order.sh
 ```
-
-### Jest Test (TODO)
-
-`npm test`
